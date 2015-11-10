@@ -17,7 +17,6 @@ html, body {
 .tab-content {
     min-height: 20em;
 }
-
     
 .address {
     background-image: url(img/house.png);
@@ -59,7 +58,10 @@ html, body {
 }
 .copyr {
     text-align: left;
-    padding-left: 0.7em;
+}
+.copyr > p {
+    margin: 0;
+    padding: 0.2em 0 0.2em 0.7em;
 }
 .classes-box {
     background-image: url(img/classes.jpg);
@@ -133,7 +135,7 @@ html, body {
     float: left;
 }
 .mid-content {
-    min-height: 664px;
+    min-height: 661px;
     overflow: auto;
 }
 .mid-banner > .container {
@@ -143,7 +145,7 @@ html, body {
     background-size: cover;
     padding: 3em 1.2em;
     width: 100%;
-    height: 664px;
+    height: 661px;
 }
 .mid-banner p {
     font-size: 1.8em;
@@ -173,6 +175,9 @@ html, body {
 }
 .mid-about .mid-about-pics {
     text-align: center;
+}
+.mid-about .mid-about-pics > img {
+    padding: 0.25em 0 0.25em 0;
 }
 .mid-contact {
     background-color: #FF9522;
@@ -297,8 +302,11 @@ html, body {
     background-image: url(img/staff.jpg);
     background-size: cover;
 }
-.staff-box .navbox-tab{
+.staff-box .navbox-tab {
     background-color: #E2FA00;
+}
+.staff-tabs {
+    margin: 1em;
 }
 .tdates {
     width: 50%;
