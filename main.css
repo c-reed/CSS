@@ -203,6 +203,10 @@ html, body {
     text-align: center;
     margin-top: 4em;
 }
+.mid-classes-pics img {
+    padding: 0.15em;
+}
+
 .mid-staff {
     background-color: #E2FA00;
 }
