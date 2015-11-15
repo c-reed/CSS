@@ -72,6 +72,7 @@ html, body {
 }
 .classes-content {
     padding: 0.25em 0 1em 0.5em;
+    font-size: 0.85em;
 }
 .classes-content > h2 {
     margin: 0;
