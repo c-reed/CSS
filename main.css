@@ -320,8 +320,8 @@ html, body {
 .tdates .container {
     background-color: #FC2883;
     width: 100%;
-    min-height: 425px;
-    height: 425px;
+    min-height: 350px;
+    height: 350px;
     padding: 0em 0.25em 0em 0.75em;
     font-size: 0.8em;
 
@@ -386,8 +386,8 @@ html, body {
         width: 100%;
     }
     .tdates .container {    
-        min-height: 233px;
-        height: 233px;
+        min-height: 305px;
+        height: 305px;
     }
 }
 
