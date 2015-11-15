@@ -196,7 +196,7 @@ html, body {
 }
 .mid-classes {
     background-color: #2BC2FC;
-    padding: 0.25em;
+    padding: 0.5em;
 }
 
 .mid-classes-pics {
@@ -311,6 +311,7 @@ html, body {
 }
 .staff-tabs {
     margin: 1em;
+    text-align: center;
 }
 .tdates {
     width: 50%;
