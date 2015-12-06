@@ -31,8 +31,6 @@ html, body {
 .banner {
     background-color: #2BC2FC;
     background-position: 50% 10%;
-    background-size: cover;
-    width: 100%;
 }
 .banner-container {
     max-width: 960px;
@@ -41,9 +39,6 @@ html, body {
 }
 .bottombar {
     background-color: #26ace0;
-    width: 100%;
-    overflow: hidden;
-    padding: 1em 1em 0.5em 0em;
     font-size: 0.75em;
 }
 .bottombar a {
@@ -92,7 +87,6 @@ html, body {
     margin-bottom: 0.7em;
     margin-left: 0.7em;
     color: #000000;
-
 }
 .content-classes {
     padding: 0 0.5em 0 0;
@@ -118,7 +112,7 @@ html, body {
     background-color: #ffffff;
     padding: 1em;
     position: relative;
-    top: -10px;    
+    top: -10px;
 }
 .map {
     width: 100%;
@@ -340,23 +334,15 @@ html, body {
     padding: 0em 0em 0.25em 0em;
 }
 
-[class*="col-"] {
-    width: 100%;
+@media only screen and (max-width: 768px) {
+    .banner {
+        width:100%;
+    }
 }
 
+
+
 @media only screen and (min-width: 768px) {
-    .col-1 { width: 8.33%; }
-    .col-2 { width: 16.66%; }
-    .col-3 { width: 25.00%; }
-    .col-4 { width: 33.33%; }
-    .col-5 { width: 41.66%; }
-    .col-6 { width: 50.00%; }
-    .col-7 { width: 58.33%; }
-    .col-8 { width: 66.66%; }
-    .col-9 { width: 75.00%; }
-    .col-10 { width: 83.33%; }
-    .col-11 { width: 91.66%; }
-    .col-12 { width: 100.00%; }
     
     .banner {
         height: 100px;
