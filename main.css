@@ -227,8 +227,7 @@ html, body {
 }
 .navbox {
     height: 160px;
-    width: 100%;
-    margin: 0em 0em 0.5em 0em;
+    padding: 1em;
 }
 .navbox:hover div {
     width: 125px;
@@ -243,6 +242,7 @@ html, body {
     transition: width 1s;
 }
 .navbox-tab h2 {
+    color: #000;
     transform-origin: 0px 0px;
     -webkit-transform-origin: 0px 0px;
     transform: rotate(-90deg) translate(-150px);
