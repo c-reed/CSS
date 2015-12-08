@@ -2,7 +2,9 @@
 * {
     box-sizing: border-box;
 }
-
+[class*="col-md-"] {
+    padding: 0.5em 0.5em 0.5em 0.5em;
+}
 html, body {
     font-family: 'Muli', sans-serif;
     width: 100%;
@@ -35,7 +37,6 @@ html, body {
     background-color: #2BC2FC;
     background-position: 50% 10%;
 }
-
 .copyr {
     text-align: left;
 }
@@ -80,6 +81,7 @@ html, body {
 }
 .footer {
     background-color: #26ace0;
+    margin: 2em 0 0 0;
 }
 .footer a {
     color: #000;
@@ -111,14 +113,14 @@ html, body {
 }
 .map {
     width: 100%;
-    text-align: left;
-    padding: 1.5em 0 0 0;
+    text-align: center;
 }
 .main {
     padding: 1em 0 2em 0;
 }
 .mid-content {
     min-height: 682px;
+    margin: 0 0 1em 0;
     overflow: auto;
 }
 .mid-banner {
@@ -142,6 +144,7 @@ html, body {
 }
 .mid-about {
     background-color: #CD05FF;
+    padding: 0.5em;
 
 }
 .mid-about > .container {
@@ -155,7 +158,7 @@ html, body {
     margin: 0em;
 }
 .mid-about p {
-    font-size: 0.85em;
+    font-size: 0.90em;
     text-align: justify;
 }
 .mid-about .mid-about-pics {
@@ -166,34 +169,26 @@ html, body {
 }
 .mid-contact {
     background-color: #FF9522;
-}
-.mid-contact .contacts {
-
-}
-.mid-contact > .container {
-    padding: 0.5em 0.25em 0.25em 0.5em;
+    padding: 0.5em;
 }
 .mid-contact h2 {
     margin: 0em;
-}
-.mid-contact p {
-
 }
 .mid-classes {
     background-color: #2BC2FC;
     padding: 0.5em;
 }
-
 .mid-classes-pics {
     text-align: center;
     margin-top: 4em;
 }
 .mid-classes-pics img {
-    padding: 0.15em;
+    padding: 0.5em;
 }
 
 .mid-staff {
     background-color: #E2FA00;
+    padding: 0.5em;
 }
 .menu-classes {
     padding: 0.25em 0.5em 0 0.25em;
@@ -213,7 +208,7 @@ html, body {
 }
 .navbox {
     height: 160px;
-    margin: 0 0 1em 0;
+    margin: 0em 1em 1em 0.5em;
 }
 .navbox:hover div {
     width: 125px;
@@ -293,8 +288,10 @@ html, body {
     background-color: #E2FA00;
 }
 .staff-tabs {
-    margin: 0.25em;
     text-align: center;
+}
+.table {
+    margin: 0 0 0.5em 0;
 }
 .tdates {
     color: #ffffff;
@@ -320,10 +317,6 @@ html, body {
     padding: 0em 0em 0.25em 0em;
 }
 
-@media only screen and (max-width: 768px) {
-
-}
-
 
 
 @media only screen and (min-width: 768px) {
@@ -337,8 +330,8 @@ html, body {
     }
     .logo {
         float: right;
+        text-align: right;
     }
-
 }
 
 
