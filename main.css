@@ -37,6 +37,9 @@ html, body {
     background-color: #2BC2FC;
     background-position: 50% 10%;
 }
+.banner .container {
+    padding: 0;
+}
 .copyr {
     text-align: left;
 }
