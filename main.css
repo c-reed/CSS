@@ -335,6 +335,10 @@ html, body {
         float: right;
         text-align: right;
     }
+    
+    .quicknav {
+        text-align: left;
+    }
 }
 
 
