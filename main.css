@@ -13,6 +13,7 @@ html, body {
     margin: 0px;
     background-color: #DCEEF4;
     overflow-x: hidden;
+    color: #222;
 }
 .nav>li>a {
  color: #000;   
@@ -301,9 +302,12 @@ html, body {
     background-color: #FC2883;
     width: 100%;
     min-height: 295px;
-    height: 295px;
     padding: 0em 0.25em 0em 0.75em;
     font-size: 0.8em;
+}
+
+.tdates > p {
+    margin: 0px;
 }
 
 .tdates > h3 {
