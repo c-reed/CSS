@@ -16,7 +16,7 @@ html, body {
     color: #222;
 }
 .nav>li>a {
- color: #000;   
+ color: #000;
 }
 .tab-content {
     min-height: 20em;
@@ -74,7 +74,7 @@ html, body {
 .contacts {
     background-repeat: no-repeat;
     background-size: 15px;
-    padding-left: 22px;   
+    padding-left: 22px;
     margin-bottom: 0.7em;
     margin-left: 0.7em;
     color: #000000;
@@ -301,7 +301,7 @@ html, body {
     color: #ffffff;
     background-color: #FC2883;
     width: 100%;
-    min-height: 295px;
+    min-height: 285px;
     padding: 0em 0.25em 0em 0.75em;
     font-size: 0.8em;
 }
@@ -316,18 +316,18 @@ html, body {
 }
 
 .tdates ul {
-    
+
     padding: 0em 0em 0em 2em;
 }
 .tdates li {
-    
+
     padding: 0em 0em 0.25em 0em;
 }
 
 
 
 @media only screen and (min-width: 768px) {
-    
+
     .banner {
         height: 100px;
         margin: 0 0 2.5em 0;
@@ -339,10 +339,8 @@ html, body {
         float: right;
         text-align: right;
     }
-    
+
     .quicknav {
         text-align: left;
     }
 }
-
-
