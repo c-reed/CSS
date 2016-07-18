@@ -303,7 +303,7 @@ html, body {
     width: 100%;
     min-height: 285px;
     padding: 0em 0.25em 0em 0.75em;
-    font-size: 0.8em;
+    font-size: 0.85em;
 }
 
 .tdates > p {
@@ -317,7 +317,8 @@ html, body {
 
 .tdates ul {
 
-    padding: 0em 0em 0em 2em;
+    padding: 0em 0em 0em 1em;
+    list-style-type: none;
 }
 .tdates li {
 
