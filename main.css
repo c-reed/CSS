@@ -189,7 +189,10 @@ html, body {
 .mid-classes-pics img {
     padding: 0.5em;
 }
-
+.mid-extra {
+	background-color: #EFFDFF;
+	padding: 1.5em;
+}
 .mid-staff {
     background-color: #E2FA00;
     padding: 0.5em;
