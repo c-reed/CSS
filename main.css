@@ -26,7 +26,16 @@ html, body {
     background-size: cover;
 }
 .about-box > .navbox-tab {
-    background-color: #DB84F1;
+    background-color: #CD05FF;
+}
+.acrostic {
+    width: 60%;
+    margin: auto;
+}
+.acrostic-initial {
+  font-size: 1.6em;
+  font-weight: 900;
+  padding: 0.1em 0.2em 0.1em 0.1em;
 }
 .affil {
     padding: 1em;
@@ -124,6 +133,7 @@ html, body {
 }
 .mid-content {
     min-height: 682px;
+    height: 682px;
     margin: 0 0 1em 0;
     overflow: auto;
 }
@@ -147,7 +157,7 @@ html, body {
     margin: 0em;
 }
 .mid-about {
-    background-color: #DB84F1;
+    background-color: #CD05FF;
     padding: 0.5em;
 
 }
@@ -189,10 +199,7 @@ html, body {
 .mid-classes-pics img {
     padding: 0.5em;
 }
-.mid-extra {
-	background-color: #EFFDFF;
-	padding: 1.5em;
-}
+
 .mid-staff {
     background-color: #E2FA00;
     padding: 0.5em;
@@ -294,6 +301,9 @@ html, body {
 .staff-box .navbox-tab {
     background-color: #E2FA00;
 }
+.staff-content {
+  overflow-y: auto;
+}
 .staff-tabs {
     text-align: center;
 }
@@ -306,7 +316,7 @@ html, body {
     width: 100%;
     min-height: 285px;
     padding: 0em 0.25em 0em 0.75em;
-    font-size: 0.85em;
+    font-size: 0.8em;
 }
 
 .tdates > p {
@@ -320,8 +330,7 @@ html, body {
 
 .tdates ul {
 
-    padding: 0em 0em 0em 1em;
-    list-style-type: none;
+    padding: 0em 0em 0em 2em;
 }
 .tdates li {
 
