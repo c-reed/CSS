@@ -27,7 +27,7 @@ html, body {
     background-size: cover;
 }
 .about-box > .navbox-tab {
-    background-color: #CD05FF;
+    background-color: #DB84F1;
 }
 .acrostic {
     width: 60%;
@@ -161,7 +161,7 @@ html, body {
     margin: 0em;
 }
 .mid-about {
-    background-color: #CD05FF;
+    background-color: #DB84F1;
     padding: 0.5em;
 
 }
@@ -188,6 +188,9 @@ html, body {
 .mid-contact {
     background-color: #FF9522;
     padding: 0.5em;
+}
+.mid-contact a {
+    color: #000000;
 }
 .mid-contact h2 {
     margin: 0em;
