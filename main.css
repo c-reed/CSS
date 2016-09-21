@@ -53,6 +53,7 @@ html, body {
 }
 .btn {
     background: linear-gradient(to bottom right, #f8f8f8, #b8d8de);
+    font-weight: 900;
 }
 .copyr {
     text-align: left;
