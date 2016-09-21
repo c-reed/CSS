@@ -51,6 +51,9 @@ html, body {
 .banner .container {
     padding: 0;
 }
+.btn {
+    background: linear-gradient(to bottom right, #f8f8f8, #b8d8de);
+}
 .copyr {
     text-align: left;
 }
