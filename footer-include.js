@@ -27,9 +27,9 @@ document.write('\
             &nbsp;<a href="http://www.oakwoodschool.co.uk">www.oakwoodschool.co.uk</a></address>\
         </div>\
         <div class="affil col-sm-4 col-xs-12">\
-            <a href="https://www.sta.co.uk/"><img src="../img/STA.png" alt="STA" /></a>\
-            <a href="https://aqualiving.co.uk/"><img src="../img/aqualiving.jpg" alt="Aqualiving" /></a>\
-            <a href="http://www.bigcrocodile.co.uk/"><img src="../img/bigcroc.jpg" alt="big crococdile partner" /></a>\
+            <a href="https://www.sta.co.uk/"><img src="http://chichesterswimschool.com/img/STA.png" alt="STA" /></a>\
+            <a href="https://aqualiving.co.uk/"><img src="http://chichesterswimschool.com/img/aqualiving.jpg" alt="Aqualiving" /></a>\
+            <a href="http://www.bigcrocodile.co.uk/"><img src="http://chichesterswimschool.com/img/bigcroc.jpg" alt="big crococdile partner" /></a>\
         </div>\
     </div>\
     <div class="row">\
